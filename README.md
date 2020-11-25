@@ -18,12 +18,14 @@ I am a big fan of this framework for a few reasons:
 - Zero config to deployment (As a result, here is the deployed version https://sketch-frontend-code-test.vercel.app/)
 - Opinionated
 - Server side rendering capabilities
-## Formatting
+## Formatting and Linting
 
-The project is formatted with prettier on pre-commit, using:
+The project is formatted with prettier and linted with eslint on pre-commit, using:
 - [husky](https://github.com/typicode/husky#readme) to hook into the pre-commit hook
 - [lint-staged](https://github.com/okonet/lint-staged) to run linters against staged files
 - [prettier](https://github.com/prettier/prettier) to format the code
+- [eslint](https://eslint.org/) to lint the code
+
 ## Testing
 The project uses [jest](https://jestjs.io/) as a test runner, and [@testing-library/react](https://testing-library.com/docs/react-testing-library/intro/) for testing React components.
 
