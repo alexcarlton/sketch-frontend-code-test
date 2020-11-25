@@ -18,6 +18,8 @@ I am a big fan of this framework for a few reasons:
 - Zero config to deployment (As a result, here is the deployed version https://sketch-frontend-code-test.vercel.app/)
 - Opinionated
 - Server side rendering capabilities
+
+Although server side rendering is not used in this code test, you can server side capabilities being used in `/pages/index.js` where we redirect requests from `/` to `/documents/Y8wDM` 
 ## Formatting and Linting
 
 The project is formatted with prettier and linted with eslint on pre-commit, using:
