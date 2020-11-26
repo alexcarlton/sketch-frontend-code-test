@@ -20,6 +20,12 @@ I am a big fan of this framework for a few reasons:
 - Server side rendering capabilities
 
 Although server side rendering is not used in this code test, you can server side capabilities being used in `/pages/index.js` where we redirect requests from `/` to `/documents/Y8wDM` 
+## GraphQL
+I have used the [Apollo](https://www.apollographql.com/) GraphQL client to fetch the document data.
+
+The `shortId` for the requested document is ascertained from the URL, so changing it to any `shortId` will work!
+
+The client requires some extra work to play nice with server side rendering, as can be seen in `/gql/client.js`.
 ## Styling
 Styling for the project has been applied with [styled-components](https://styled-components.com/).
 ## Formatting and Linting
