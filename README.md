@@ -20,6 +20,8 @@ I am a big fan of this framework for a few reasons:
 - Server side rendering capabilities
 
 Although server side rendering is not used in this code test, you can server side capabilities being used in `/pages/index.js` where we redirect requests from `/` to `/documents/Y8wDM` 
+## Styling
+Styling for the project has been applied with [styled-components](https://styled-components.com/).
 ## Formatting and Linting
 
 The project is formatted with prettier and linted with eslint on pre-commit, using:
